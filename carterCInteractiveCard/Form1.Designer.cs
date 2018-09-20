@@ -33,6 +33,7 @@
             this.nameText = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.nameLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // startText
@@ -70,6 +71,17 @@
             this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
             this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
             // 
+            // nameLabel
+            // 
+            this.nameLabel.AutoSize = true;
+            this.nameLabel.BackColor = System.Drawing.Color.Red;
+            this.nameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nameLabel.Location = new System.Drawing.Point(103, 340);
+            this.nameLabel.Name = "nameLabel";
+            this.nameLabel.Size = new System.Drawing.Size(551, 73);
+            this.nameLabel.TabIndex = 4;
+            this.nameLabel.Text = "By; Carter Culliton";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -77,7 +89,8 @@
             this.BackColor = System.Drawing.Color.Yellow;
             this.BackgroundImage = global::carterCInteractiveCard.Properties.Resources.happy;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(723, 450);
+            this.ClientSize = new System.Drawing.Size(760, 450);
+            this.Controls.Add(this.nameLabel);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.nameText);
             this.Controls.Add(this.startText);
@@ -95,6 +108,7 @@
         private System.Windows.Forms.Label nameText;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ImageList imageList1;
+        private System.Windows.Forms.Label nameLabel;
     }
 }
 
