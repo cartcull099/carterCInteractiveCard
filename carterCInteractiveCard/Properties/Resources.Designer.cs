@@ -61,12 +61,30 @@ namespace carterCInteractiveCard.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Birthday_sounds {
+            get {
+                return ResourceManager.GetStream("Birthday_sounds", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap happy {
             get {
                 object obj = ResourceManager.GetObject("happy", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Pop_sound {
+            get {
+                return ResourceManager.GetStream("Pop_sound", resourceCulture);
             }
         }
     }

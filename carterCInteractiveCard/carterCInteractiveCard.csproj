@@ -88,5 +88,11 @@
   <ItemGroup>
     <None Include="Resources\happy.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Birthday sounds.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pop sound.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
